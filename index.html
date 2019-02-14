@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>
+			My First html	
+	</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<header>
+		<h1>Registry form</h1>
+	</header>
+	<nav>
+		<ul class="menu">
+			<li>
+				Home
+			</li>
+			<li>
+				About site
+			</li>
+			<li class="selected">
+				Registry
+			</li>
+			<li>
+				Contact
+			</li>
+			<li>
+				Copyright
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<form>
+			<fieldset>
+				<legend>
+					New account registry
+				</legend>
+				<span>Your information is safe with us</span>
+				<label for="textInput">
+					<div><p>Complete Name</p></div>
+				<input type ="text" class="formElement" id="CompleteName" />
+				<div></div>
+				</label>
+				<label for="textInput">
+					<div><p>Email</p></div>
+				<input type ="email" class="formElement" id="UserEmail"/>
+				</label>
+				<label for="textInput">
+					<div><p>Password</p></div>
+				<input type ="password" class="formElement" id="pass" />
+				</label>
+				<label for="textInput">
+					<div><p>Password Confirmation</p></div>
+				<input type ="password" class = "formElement" id="passConf" />
+				</label>
+				<p>Country</p>
+				<select name="Country" id="country">
+					<option value="SC">
+						Select Country...
+					</option>
+					<option value="MX">
+						México
+					</option>
+					<option value="FR">
+						France
+					</option>
+				</select>
+				<p>Gender</p>
+				<form id="Gender">
+					<input type="radio" id="Male" name="gender">Male
+					<div></div>
+					<input type="radio" id="Female" name="gender">Female
+				</form>
+				<p></p>
+				<label for="submitInput">
+    				<input  class="button" type="submit" value="Submit" id="submitButton"/>
+    			</label>
+    			<label for="submitInput">
+    				<input  class="button" type="submit" value="Cancel" id="cancelButton"/>
+    			</label>
+			</fieldset>
+		</form>
+	</main>
+	<script type="text/javascript" src="./js/index.js">
+
+	</script>
+
+</body>
+
+</html>

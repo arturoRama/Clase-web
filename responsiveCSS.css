@@ -1,0 +1,25 @@
+.leftContainer{
+	border:1px solid red;
+}
+
+.rightContainer{
+	border: 1px solid blue;
+}
+
+@media all and (min-width:420px) and (max-width:720){
+	.rightContainer, .leftContainer{
+		float:left;
+		width: 50%;
+		box-sizing: border-box;
+		margin:0;
+	}
+}
+
+@media all and (min-width:720){
+	.rightContainer{
+		width: 25%;
+	}
+	.leftContainer{
+		width: 75%;
+	}
+}

@@ -1,0 +1,6 @@
+Retrieve the password and password confirmation of th euser.VAlidate that they have the same and that they contain at least 1 letter and 1 number
+Retrieve the country of the user.Validate that at least one country is selected
+Retrieve the gender of the user. Validate that it is selected
+Place all retrieved fields in an object
+Reset all values to default
+If a validation fails display a message to let the user know what is missing
